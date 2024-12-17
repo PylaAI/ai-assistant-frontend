@@ -1,6 +1,6 @@
 import React from 'react'
 import './brawlers.css'
-import { ExampleBrawlers } from './brawlers'
+import ExampleBrawlers from './exampleBrawlers'
 
 const Brawlers = () => {
 

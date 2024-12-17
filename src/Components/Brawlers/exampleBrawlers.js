@@ -1,4 +1,4 @@
-export const ExampleBrawlers = [
+ const ExampleBrawlers = [
     {
         name: 'Meeple',
         img: 'https://cdn.brawlify.com/brawlers/borderless/16000089.png',
@@ -31,3 +31,4 @@ export const ExampleBrawlers = [
     },
 ]
 
+export default ExampleBrawlers;
