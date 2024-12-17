@@ -2,7 +2,7 @@
     {
         name: 'Meeple',
         img: 'https://cdn.brawlify.com/brawlers/borderless/16000089.png',
-        rarity: 'Epic'
+        rarity: 'Epic',
     },
     {
         name: 'Kenji',
