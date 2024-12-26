@@ -38,4 +38,5 @@ const AISuggestion: React.FC<AISuggestionProps> = ({
   );
 };
 
+
 export default AISuggestion;

@@ -49,4 +49,3 @@ const TeamBuilder: React.FC = () => {
 };
 
 export default TeamBuilder;
-

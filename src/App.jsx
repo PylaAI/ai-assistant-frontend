@@ -1,17 +1,22 @@
-import { Route, Routes } from 'react-router-dom';
-import { DataProvider } from './Context/DataContext';
-import GameMode from './Components/GameMode/GameModes';
-import TeamBuilder from './Components/TeamBuilder/TeamBuilder';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TeamBuilder from "./Components/TeamBuilder/TeamBuilder";
+import ChooseMap from "./Components/TeamBuilder/Choosemap";
 
 function App() {
+  const handleMapSelect = (map) => {
+    console.log(`Selected map: ${map}`);
+  };
+
   return (
-    <DataProvider>
+    <Router>
       <Routes>
-        <Route path="/" element={<GameMode />} />
-        <Route path="/team-builder" element={<TeamBuilder />} />
+        <Route path="/" element={<TeamBuilder />} />
+        <Route path="/choose-map" element={<ChooseMap onMapSelect={handleMapSelect} />} />
       </Routes>
-    </DataProvider>
+    </Router>
   );
 }
 
 export default App;
+
