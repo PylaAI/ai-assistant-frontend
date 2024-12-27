@@ -1,0 +1,101 @@
+.title {
+    color: azure;
+    margin-bottom: 20px;
+}
+
+.brawlers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.brawler {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brawler b {
+    overflow: hidden;
+
+}
+
+.link img {
+    max-width: 65px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+
+.Epic img {
+    border: 2px solid rgb(134, 20, 156);
+}
+
+.Epic b {
+    color: rgb(223, 124, 243);
+}
+
+.Legendary img {
+    border: 2px solid rgb(238, 241, 32);
+}
+
+.Legendary b {
+    color: rgb(238, 241, 32);
+}
+
+.Mythic img {
+    border: 2px solid rgb(230, 73, 107);
+}
+
+.Mythic b {
+    color: rgb(230, 73, 107);
+}
+
+.Rare img {
+    border: 2px solid rgb(107, 223, 112);
+}
+
+.Rare b {
+    color: rgb(7, 160, 248);
+}
+
+.Super-Rare img {
+    border: 2px solid rgb(7, 160, 248);
+}
+
+.Super-Rare b {
+    color: rgb(122, 182, 252);
+}
+
+.Trophy-Road img {
+    border: 2px solid rgb(168, 228, 247);
+}
+
+.Trophy-Road b {
+    color: rgb(168, 228, 247);
+}
+
+.link:hover {
+  
+    filter: brightness(0.65);
+    transition: 0.4s;
+}
+
+/* Brawler page */
+
+
+
+
+@media screen and (max-width: 768px) {
+    .brawlers {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .brawlers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

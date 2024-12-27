@@ -1,0 +1,14 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(30, 30, 30, 1);
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    max-width: 1030px;
+    margin: auto;
+}

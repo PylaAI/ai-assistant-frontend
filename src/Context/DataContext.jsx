@@ -7,7 +7,7 @@ const DataContext = createContext({});
 
 export const DataProvider = ({ children }) => {
 
-    //some logic here
+    //some logic here.
 
 
 
@@ -16,7 +16,7 @@ export const DataProvider = ({ children }) => {
 
     return (
         <DataContext.Provider value={{
-            //som variable and other here
+            //som variable and other here.
         }}>
             {children}
         </DataContext.Provider>
