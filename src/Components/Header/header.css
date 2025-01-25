@@ -1,37 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=DynaPuff:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .nav-container {
-    margin-bottom: 3em;
-
+  margin-bottom: 3em;
 }
 
 .navbar {
-    background-color: rgb(53, 53, 53) !important;
-
-
+  background-color: rgb(53, 53, 53) !important;
 }
 
 .nav-item img {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
-
-
 
 .navbar-brand,
 .nav-link {
-    color: aliceblue;
-    font-family: 'Roboto';
-    padding-left: 5px;
-    letter-spacing: 1px;
-
+  color: aliceblue;
+  font-family: 'Roboto';
+  padding-left: 5px;
+  letter-spacing: 1px;
 }
 
 .navbar-brand:hover,
 .nav-link:hover {
-    color: rgb(163, 167, 170);
+  color: rgb(163, 167, 170);
 }
 
 .navbar-toggler {
-    background-color: rgb(110, 110, 110);
-    font-size: small;
+  background-color: rgb(110, 110, 110);
+  font-size: small;
 }
