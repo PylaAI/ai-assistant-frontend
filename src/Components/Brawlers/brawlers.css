@@ -95,11 +95,11 @@
   display: flex;
 
   h2 {
-    font-size: calc(.7vw + .7em);
+    font-size: calc(0.7vw + 0.7em);
   }
 
   p {
-    font-size: calc(.45vw + .45em);
+    font-size: calc(0.45vw + 0.45em);
   }
 }
 

@@ -1,0 +1,100 @@
+.title {
+  color: azure;
+  margin-bottom: 20px;
+  font-size: calc(0.7vw + 0.7em);
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row; /* Align input and rarity options in a row */
+  align-items: flex-start; /* Align items at the top */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column; /* Keep label above input */
+}
+
+.search-bar input {
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: calc(0.45vw + 0.45em);
+  color: white;
+  max-width: 10vw;
+}
+
+.search-bar label {
+  color: white;
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.rarity-options {
+  display: flex;
+  margin-left: 10px; /* Space between input and rarity options */
+  margin-top: 2.7vh;
+  margin-left: 3vw;
+}
+
+.rarity-options p {
+  margin-right: 10px; /* Space between rarity types */
+  color: white; /* Ensure text is visible */
+  padding: 0.3vh 0.7vw 0.3vh 0.7vw;
+}
+
+.brawlers-list {
+  margin-top: 5vh;
+}
+
+.title {
+  color: azure;
+  margin-bottom: 20px;
+  font-size: calc(0.7vw + 0.7em);
+}
+
+.rarity {
+  border: 1px solid;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.common {
+  border-color: gray;
+}
+.rare {
+  border-color: green;
+}
+.super-rare {
+  border-color: blue;
+}
+.epic {
+  border-color: purple;
+}
+.mythic {
+  border-color: red;
+}
+.legendary {
+  border-color: gold;
+}
+
+.rarity:hover {
+  content: attr(data-full);
+}
+
+.common:hover::after {
+  content: 'ommon';
+}
+.rare:hover::after {
+  content: 'are';
+}
+.super-rare:hover::after {
+  content: 'uper Rare';
+}
+.epic:hover::after {
+  content: 'pic';
+}
+.mythic:hover::after {
+  content: 'ythic';
+}
+.legendary:hover::after {
+  content: 'egendary';
+}

@@ -19,9 +19,7 @@ const Brawler = () => {
           <img src={brawler.img} alt={brawler.name} />
         </div>
         <div className="brawler-desc">
-          <p>
-            {brawler.description}
-          </p>
+          <p>{brawler.description}</p>
           <p>
             Health: <br />
             {brawler.health}

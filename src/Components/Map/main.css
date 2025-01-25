@@ -1,0 +1,36 @@
+.gamemodeMap-wrapper {
+    margin-top: 15vh;
+}
+
+.gamemodeMap-wrapper .map {
+  h1 {
+    color: red;
+  }
+
+  h1 {
+    color: white;
+    margin-left: 1vw;
+    font-size: calc(0.8vw + 0.8em);
+  }
+
+
+  img {
+    width: 15vw;
+  }
+
+  span {
+    color: white
+  }
+}
+
+.gamemodeMap-wrapper .map-details {
+  display: flex;
+
+  .stats {
+    margin-left: 1vw;
+    p {
+        color: rgba(255, 255, 255, 0.795)
+      }
+  }
+
+}

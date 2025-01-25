@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Header/Navbar';
 import Brawlers from './Components/Brawlers/Brawlers';
 import Brawler from './Components/Brawlers/Brawler';
+import { GamemodeMap } from './Components/Map/GamemodeMap';
 import './app.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/maps" element={<GameMode />} />
+          <Route path="/map/:name" element={<GamemodeMap />} />
           <Route path="/brawlers" element={<Brawlers />} />
           <Route path="brawlers/:name" element={<Brawler />} />
         </Routes>

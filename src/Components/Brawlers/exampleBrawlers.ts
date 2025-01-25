@@ -1,12 +1,18 @@
-enum IBrawlerRarity {
+export enum IBrawlerRarity {
+  Common = 'Common',
+  Rare = 'Rare',
+  SuperRare = 'Super Rare',
   Epic = 'Epic',
+  Mythic = 'Mythic',
+  Legendary = 'Legendary',
+  Chromatic = 'Chromatic',
 }
 
-enum IBrawlerClass {
+export enum IBrawlerClass {
   DamageDelaer = 'Damage Dealer',
 }
 
-interface IStarPower {
+export interface IStarPower {
   id: number;
   name: string;
   path: string;
@@ -17,7 +23,7 @@ interface IStarPower {
   released: boolean;
 }
 
-interface IGadget {
+export interface IGadget {
   id: number;
   name: string;
   path: string;
@@ -28,7 +34,7 @@ interface IGadget {
   released: boolean;
 }
 
-interface IBrawler {
+export interface IBrawler {
   name: string;
   img: string;
   rarity: IBrawlerRarity;
