@@ -17,7 +17,8 @@ export const exampleMapData: IMapData[] = [
     id: '15000004',
     name: 'Gem Fort',
     imageUrl: 'https://cdn.brawlify.com/maps/regular/15000004.png',
-    description: 'Snake Prairie is like a wild west hide-and-seek game where the bushes are your best friend and worst enemy. It’s a grassy labyrinth where you either emerge as a sharpshooting legend or become a cactus snack.',
+    description:
+      'Snake Prairie is like a wild west hide-and-seek game where the bushes are your best friend and worst enemy. It’s a grassy labyrinth where you either emerge as a sharpshooting legend or become a cactus snack.',
     stats: [
       { id: '16000081', winRate: 50.2, useRate: 1 },
       { id: '16000024', winRate: 50, useRate: 0.4 },

@@ -39,6 +39,11 @@ const Navbar = () => {
                   Brawlers
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/ai-assistant" className="nav-link">
+                  AI Assistant
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

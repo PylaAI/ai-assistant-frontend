@@ -34,19 +34,22 @@ export const GamemodeMap = () => {
 
           <div className="map-details">
             <img src={map?.imageUrl}></img>
-            <div className='stats'>
-            <p>
-            <span>Description:</span> <br/>
+            <div className="stats">
+              <p>
+                <span>Description:</span> <br />
                 {map?.description ?? 'No description found for this map!'}
-            </p>
-            <p>
-                <span>Best brawlers:</span> <br/>
+              </p>
+              <p>
+                <span>Best brawlers:</span> <br />
                 {map?.stats.slice(0, 6).map((mapStat) => {
-                    return <p>{mapStat.id} WR: {mapStat.winRate}%</p>
+                  return (
+                    <p>
+                      {mapStat.id} WR: {mapStat.winRate}%
+                    </p>
+                  );
                 })}
-            </p>
+              </p>
             </div>
-            
           </div>
         </div>
       </div>

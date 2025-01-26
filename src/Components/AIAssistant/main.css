@@ -1,0 +1,101 @@
+.ai-assistant-wrapper {
+  p,
+  h1,
+  h2 {
+    color: white;
+  }
+
+  .add-by-input {
+    margin-top: 1vh;
+    padding-bottom: 3vh;
+
+    input {
+      background-color: transparent;
+      border: 1px solid white;
+      width: 15vw;
+      color: rgb(245, 113, 113);
+      font-size: calc(0.5vw + 0.5em);
+    }
+
+    input::placeholder {
+      color: rgb(181, 181, 181);
+      padding-left: .3vw;
+    }
+
+    button {
+      font-size: calc(0.5vw + 0.5em);
+    }
+  }
+
+  h2 {
+    font-size: calc(0.5vw + 0.5em);
+  }
+
+  .ai-chat {
+    width: 50vw;
+  }
+
+  .brawler-options {
+    display: inline-block;
+    width: 10%;
+    box-sizing: border-box;
+    font-size: initial; /* Reset font size for children */
+  }
+
+  img {
+    width: 3vw;
+  }
+
+  p {
+    padding: 0;
+    height: 1vh;
+  }
+
+  img:hover {
+    border: 2px solid rgb(160, 184, 3);
+  }
+
+  button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 2vh;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .main-pick {
+    margin-top: 2vh;
+  }
+
+  #submit-button:hover {
+    background-color: rgba(251, 106, 106, 0.453);
+  }
+
+  .picked-brawlers {
+  }
+}
+
+.pick {
+  font-size: 0; /* Remove space between inline-block elements */
+  max-width: 100%;
+}
+
+.ai-response-list {
+  p {
+    color: white;
+    font-size: calc(.4vw + .4em);
+  }
+
+  h1 {
+    color: white;
+  }
+}
+
+.loading-ai-response {
+  margin-left: 17vw;
+  margin-top: 35vh;
+  h1 {
+    color: white
+  }
+}

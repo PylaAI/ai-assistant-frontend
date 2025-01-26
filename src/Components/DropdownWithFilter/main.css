@@ -1,0 +1,9 @@
+.dropdown-with-filter-wrapper {
+  margin-top: 3vh;
+  width: 20vw;
+
+  button {
+    margin: 0;
+    padding: 0;
+  }
+}

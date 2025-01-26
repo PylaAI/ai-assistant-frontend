@@ -114,7 +114,7 @@ body {
       padding: 5px;
       border: 1px solid rgba(255, 255, 255, 0.417);
       margin-left: 1vw;
-    };
+    }
 
     img:hover {
       background-color: rgba(255, 255, 255, 0.24);
@@ -127,7 +127,7 @@ body {
     }
 
     input::placeholder {
-      color: rgba(255, 255, 255, 0.579)
+      color: rgba(255, 255, 255, 0.579);
     }
   }
 }

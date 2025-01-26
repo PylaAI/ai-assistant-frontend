@@ -6,6 +6,7 @@ import Navbar from './Components/Header/Navbar';
 import Brawlers from './Components/Brawlers/Brawlers';
 import Brawler from './Components/Brawlers/Brawler';
 import { GamemodeMap } from './Components/Map/GamemodeMap';
+import { AIAssitant } from './Components/AIAssistant/AIAssistant';
 import './app.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/map/:name" element={<GamemodeMap />} />
           <Route path="/brawlers" element={<Brawlers />} />
           <Route path="brawlers/:name" element={<Brawler />} />
+          <Route path="ai-assistant" element={<AIAssitant />} />
         </Routes>
       </DataProvider>
     </div>
