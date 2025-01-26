@@ -99,3 +99,10 @@
     color: white
   }
 }
+
+.ai-assitant-guide {
+  margin-top: 5vh;
+  h1 {
+    font-size: calc(.8vw + .8em);
+  }
+}

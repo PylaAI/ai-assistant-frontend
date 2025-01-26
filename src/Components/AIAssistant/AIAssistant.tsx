@@ -200,6 +200,13 @@ export const AIAssitant = () => {
               </button>
             </div>
           </div>
+        
+            {allyBrawlers.length === 0 && <div className='ai-assitant-guide'>
+                <h1>How to use?</h1>
+                <p>1. Pick the brawlers your allies has picked. If none, directly click the confirm button</p>
+                <p>2. Pick the brawlers your enemies has picked. If none, directly click the confirm button</p>
+                <p>3. Pick the map your playing on and click the confirm button</p>
+            </div>}
         </div>
       );
   }
